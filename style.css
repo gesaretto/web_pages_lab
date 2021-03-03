@@ -1,0 +1,37 @@
+h1, h2 {
+  font-family: Georgia;
+  color: red;
+}
+
+h2 {
+  color: orange;
+  text-transform: capitalize;
+}
+.title {
+  color: teal;
+  text-transform: uppercase;
+}
+
+p, li {
+  font-family: Arial;
+}
+
+#Candy {
+  font-family: cursive !important;
+}
+
+#Latest {
+  font-family: sans-serif;
+}
+
+aside {
+  font-size: small;
+}
+
+#mickey_sucks li {
+  color: olive;
+}
+
+h3 {
+  color: rebeccapurple;
+}
