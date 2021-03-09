@@ -4,6 +4,10 @@ p {
   font-weight: bold;
 }
 
+p::first-letter{
+  font-size: 200%;
+}
+
 h1 {
   color: darkcyan;
 }
@@ -14,6 +18,17 @@ h2 {
   text-transform: capitalize;
   color: white;
   text-align: center;
+  text-shadow: 2px 2px 7px #111;
+}
+
+h2:hover {
+  color: aquamarine;
+}
+
+h2:active {
+  color: rgb(221, 91, 4);
+  font-weight: 800;
+  text-transform: uppercase;
 }
 
 h3 {
@@ -73,4 +88,21 @@ img {
   font-weight: normal;
   padding: 10px;
   margin: 50px;
+}
+
+#Latest h2 {
+  text-decoration: blink;
+}
+
+#Latest p {
+  background-color: #AAA;
+  color: #FFF;
+  text-shadow: -1px -1px #666;
+}
+
+#Candy p {
+  background-color: #CCC;
+  color: #FFF;
+  text-shadow: 2px 2px 7px #111;
+  text-align: center;
 }

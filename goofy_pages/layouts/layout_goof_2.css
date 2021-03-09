@@ -1,0 +1,98 @@
+body {
+    width: 960px;
+    margin: 0 auto;
+}
+
+#bio p {
+    width: 450px;
+    background-color: lightgrey;
+}
+
+aside img {
+    position: relative;
+    left: 50px;
+}
+
+#bio h2 {
+    position: static;
+    top: 150px;
+    right: 40px;
+}
+
+nav {
+    position: fixed;
+    top: 0px;
+    background: lightpink;
+    z-index: 10;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.banner {
+    margin-top: 200px;
+}
+
+#cover_story {
+    clear: right;
+}
+
+#cover_story blockquote {
+    float: right;
+    margin: 0px 20px 20px 10px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 5px;
+    font-style: italic;
+}
+
+#cover_story img {
+    float: left;
+    margin: 0px 5px 20px 20px;
+}
+
+#final_story img {
+    float: right;
+    margin: 0px 20px 20px 10px;
+}
+
+#final_story {
+    clear: left;
+}
+
+#bits_of_fun {
+    clear: right;
+    border: 1px solid black;
+    overflow: auto;
+    width: 100%;
+}
+
+#bits_of_fun p {
+    background-color: lightsteelblue;
+    color: white;
+    font-weight: bolder;
+    text-shadow: 4px 4px 3px black;
+    width: 400px;
+    float: left;
+}
+
+#first_in_row {
+    clear: left;
+}
+
+footer {
+    clear: left;
+}
+
+#bio {
+    float: left;
+    margin: 10px;
+    width: 620px;
+}
+
+aside {
+    float: right;
+    margin: 10px;
+    width: 300px;
+}

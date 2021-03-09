@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Html & CSS Cheatsheet</title>
+    <link href="styles.css" type="text/css" rel="stylesheet">
+</head>
+<!--
+    What should we put in this thing? I think the best strategy would be to
+    put in it CSS instructions for text and image visualization. For instance,
+    a table that shows all the different ways that we can edit text and then
+    a table that shows different ways to show an image. Let's start! 
+-->
+<body>
+    <h1 class="major_emphasis">CSS Cheatsheet</h1>
+    <section class="text-visualization">
+        <h2 class="major_emphasis">CSS Properties to Change the Appearance of Text</h2>
+        <table>
+            <thead class="minor_emphasis">
+                <tr>
+                    <th><h3>CSS Property</h3></th>
+                    <th><h3>Function</h3></th>
+                    <th><h3>Possible Values</h3></th>
+                    <th><h3>Result</h3></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="code">font-family</span></td>
+                    <td>Specifies the typeface.</td>
+                    <td><span class="code">"Courier New", Courier, monospace</span></td>
+                    <td><span id="example_font-family">Hello, World!</span></td>
+                </tr>
+                <tr>
+                    <td><span class="code">font-size</span></td>
+                    <td>Specifies the size of the font.</td>
+                    <td><span class="code">16px</span> <span class="code">200%</span> <span class="code">1.5em</span></td>
+                    <td><span id="example_font-size">Hello, World!</span></td>
+                </tr>
+                <tr>
+                    <td><span class="code">font-weight</span></td>
+                    <td>Used to create bold text.</td>
+                    <td><span class="code">bold</span> <span class="code">normal</span></td>
+                    <td><span id="example_font-weight">Hello, World!</span></td>
+                </tr>
+                <tr>
+                    <td><span class="code">font-style</span></td>
+                    <td>Used to create italic text.</td>
+                    <td><span class="code">italic</span> <span class="code">oblique</span></td>
+                    <td><span id="example_font-style">Hello, World!</span></td>
+                </tr>
+                <tr>
+                    <td><span class="code">text-transform</span></td>
+                    <td>Used to change the case of text.</td>
+                    <td><span class="code">uppercase</span> <span class="code">capitalize</span></td>
+                    <td><span id="example_text-transform">Hello, World!</span></td>
+                </tr>
+                <tr>
+                    <td><span class="code">text-decoration</span></td>
+                    <td>Used to add lines above, underneath, or through text.</td>
+                    <td><span class="code">underline</span> <span class="code">line-through</span></td>
+                    <td><span id="example_text-decoration">Hello, World!</span></td>
+                </tr>
+                <tr>
+                    <td><span class="code">letter-spacing</span></td>
+                    <td>Used to change the space between letters.</td>
+                    <td><span class="code">0.2em</span></td>
+                    <td><span id="example_letter-spacing">Hello, World!</span></td>
+                </tr>
+                <tr>
+                    <td><span class="code">word-spacing</span></td>
+                    <td>Used to change the space between words.</td>
+                    <td><span class="code">1.5em</span></td>
+                    <td><span id="example_word-spacing">Hello, World!</span></td>
+                </tr>
+                <tr>
+                    <td><span class="code">text-align</span></td>
+                    <td>Used to change the alignment of text.</td>
+                    <td><span class="code">left</span> <span class="code">center</span></td>
+                    <td id="example_text-align"><span>Hello, World!</span></td>
+                </tr>
+                <tr>
+                    <td><span class="code">text-indent</span></td>
+                    <td>Used to add indentation to text.</td>
+                    <td><span class="code">50px</span></td>
+                    <td id="example_text-indent"><span>Hello, World!</span></td>
+                </tr>
+                <tr>
+                    <td><span class="code">line-height</span></td>
+                    <td>Used to change the vertical space between lines of text.</td>
+                    <td><span class="code">1.5em</span></td>
+                    <td><span id="example_line-height">Hello,<br>World!</span></td>
+                </tr>
+                <tr>
+                    <td rowspan="4"><span class="code">text-shadow</span></td>
+                    <td rowspan="4">Used to add shadow effects to text.
+                        <ul>
+                            <li>The first value refers to the width of the shadow;</li>
+                            <li>the second one to its height;</li>
+                            <li>the third one to its blur;</li>
+                            <li>and the fourth to its color.</li>
+                        </ul>
+                    <td><span class="code">1px 1px 0px #000</span></td>
+                    <td><span id="example_text-shadow_1">Hello, World!</span></td>
+                </tr>
+                <tr>
+                    <td><span class="code">1px 1px 3px #666</span></td>
+                    <td><span id="example_text-shadow_2">Hello, World!</span></td>
+                </tr>
+                <tr>
+                    <td><span class="code">2px 2px 7px #111</span></td>
+                    <td><span id="example_text-shadow_3">Hello, World!</span></td>
+                </tr>
+                <tr>
+                    <td><span class="code">-1px -2px #666</span></td>
+                    <td><span id="example_text-shadow_4">Hello, World!</span></td>
+                </tr>
+            </tbody>     
+        </table>
+    </section>
+</body>
+</html>

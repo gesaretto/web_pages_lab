@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    /* border: 1px solid blue; */
+}
+
+header {
+    background-color: lightgreen;
+}
+
+main {
+    background-color: lightskyblue;
+}
+
+footer {
+    background-color: lightpink;
+}
+
+#logo {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    float: right;
+    border-radius: 100%;
+    width: 130px;
+    height: 130px;
+    z-index: 11;
+}
+
+nav {
+    position: fixed;
+    background-color: blueviolet;
+    color: lightgoldenrodyellow;
+    z-index: 10;
+    width: 80%;
+}
+
+.banner {
+    color: blanchedalmond;
+    text-align: center;
+    text-shadow: 2px 2px cornflowerblue;
+    margin: 100px auto 10px auto;
+    /* right: 10px; */
+    /* left: 100px; */
+    width: 80%;
+    height: 150px;
+    padding: 100px;
+    background-image: url("https://static.wikia.nocookie.net/disney/images/3/3d/MDG_Service_Station.jpg/revision/latest/scale-to-width-down/1000?cb=20170317012032");
+}
+
+#bio article {
+    /* position: relative; */
+    display: inline-block;
+    width: 65%;
+    margin-left: 20px;
+}
+
+aside {
+    display: inline;
+    /* position: relative; */
+    float: right;
+    width: 25%;
+    margin-right: 20px;
+}
+
+article img {
+    float: left;
+    display: inline;
+    /* position: relative; */
+    bottom: 50px;
+}
+
+aside img {
+    float: right;
+    display: block;
+    width: 50px;
+}
+
+footer {
+    /* position: absolute; */
+    bottom: 0px;
+}
+
+#cover_story blockquote {
+    float: right;
+    width: 200px;
+    font-size: 130%;
+    font-style: italic;
+    font-family: Georgia;
+    margin: 0px 0px 10px 10px;
+}
+
+#cover_story img {
+    float: left;
+    width: 150px;
+}
+
+#cover_story h2 {
+    position: relative;
+    top: 250px;
+    left: 120px;
+}
+
+#cover_story article {
+    margin-bottom: 50px;
+}
+
+#bits_of_fun p {
+    width: 150px;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    background-color: mediumpurple;
+    color: greenyellow;
+}
+
+#bits_of_fun {
+    overflow: auto;
+    width: 100%;
+}
+
+#last_in_row {
+    clear: right;
+}
+
+#first_in_row {
+    clear: left;
+}
+
+#final_story img {
+    float: right;
+}
